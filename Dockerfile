@@ -13,6 +13,7 @@ RUN apt-get -y update \
    xorg \
    xubuntu-icon-theme 
 RUN apt-get install -y curl
+RUN apt-get install -y git
 
 # Remove light-locker to prevent screen lock
 RUN wget 'https://sourceforge.net/projects/turbovnc/files/2.2.5/turbovnc_2.2.5_amd64.deb/download' -O turbovnc_2.2.5_amd64.deb && \

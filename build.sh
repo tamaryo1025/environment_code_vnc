@@ -1,1 +1,1 @@
-docker build -t vnc .
+docker build -t rtamaki1025/vscode_vnc .
