@@ -4,7 +4,7 @@ vscodeと仮想デスクトップをdockerで使えちゃう優れものです�
 
 #使用手順
 
-１，Privateなので、管理者を呼んでくる  
+１，Privateなので、管理者(tamaki)を呼んでくる  
 2, クローンする  
 3,　cd /environment_code_vnc  
 4, sh build.sh  
