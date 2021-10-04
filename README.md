@@ -4,12 +4,12 @@ vscodeと仮想デスクトップをdockerで使えちゃう優れものです�
 
 #使用手順
 
-１，Privateなので、管理者を呼んでくる
-2, クローンする
-3,　cd /environment_code_vnc
-4, sh build.sh
-5, sh run.sh
-6. jupyter labのurlが表示されるのでそれをローカルのブラウザで表示する
+１，Privateなので、管理者を呼んでくる  
+2, クローンする  
+3,　cd /environment_code_vnc  
+4, sh build.sh  
+5, sh run.sh  
+6. jupyter labのurlが表示されるのでそれをローカルのブラウザで表示する  
 
 ただし、Dockerfileの細部を書き換える必要があるかもしれない。
 具体的には、ホストのuidとgidを確認して、USER_UIDとUSER_GIDを決める必要がある。idコマンドで確認する。(ググったらたぶんわかる）
