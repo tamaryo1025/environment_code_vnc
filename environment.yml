@@ -1,0 +1,16 @@
+channels:
+  - conda-forge
+dependencies:
+  - jupyter-server-proxy>=1.4
+  - jupyter-vscode-proxy
+  - pip
+  - websockify
+  - pip:
+      - .
+      - opencv-python
+      - numpy
+      - pandas
+      - matplotlib
+      - scipy
+      - beautifulsoup4
+      - scikit-learn
